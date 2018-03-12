@@ -1,8 +1,8 @@
 .nav li a {
-    color: #777777;
+    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
-    border-left: solid 1px #777777;
+    border-left: solid 1px #ffffff;
 
     }
 
@@ -14,16 +14,28 @@
 
 
 .nav li:last-child a {
-    border-right: solid 1px #777777;
+    border-right: solid 1px #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
 }
 
 /* .navbar {
     padding-left: 200px;
 } */
 
-.navbar-brand {
+.navbar-default .navbar-brand {
     font-size: 28px;
+    color: #ffffff;
 }
+
+.navbar-default  {
+    background-color: #337ab7;
+    border-color: #E7E7E7;
+}
+
+
 
 .profile-img {
     padding-right: 15px;
