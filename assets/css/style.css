@@ -110,12 +110,11 @@ body {
 .about {
     background-color: #ffffff;
     border: 1px solid #bdbdbd; 
+    padding: 0px 16px;
 }
 
 .about h1 {
-    color:#4aaaa5;
     border-bottom: 2px solid #bdbdbd;
-    padding-left: 35px;
     margin-bottom: 0px;
     padding-bottom: 25px;
     padding-top: 25px;
@@ -125,13 +124,14 @@ body {
 .portfolio {
     background-color: #ffffff;
     border: 1px solid #bdbdbd;
-    padding: 20px;
+    padding: 0px 16px;
+    /* padding: 20px; */
 }
 .portfolio h1 {
     color:#337ab7;
     border-bottom: 2px solid #bdbdbd;
-    padding-left: 35px;
-    margin-bottom: 0px;
+    /* padding-left: 35px; */
+    margin-bottom: 25px;
     padding-bottom: 25px;
     padding-top: 25px;
     margin-top: 0;
