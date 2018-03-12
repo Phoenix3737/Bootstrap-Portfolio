@@ -1,0 +1,229 @@
+.nav li a {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    border-left: solid 1px #777777;
+
+    }
+
+
+.nav li {
+    width: 100px;
+    text-align: center;
+ }
+
+
+.nav li:last-child a {
+    border-right: solid 1px #777777;
+}
+
+/* .navbar {
+    padding-left: 200px;
+} */
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+.profile-img {
+    padding-right: 15px;
+}
+#blueText {
+    
+    text-align: center;
+    color:#4aaaa5;
+    background-color: #ffffff;
+    /* padding-right: 786px; */
+    border-bottom: 2px solid #bdbdbd;
+    padding-left: 15px;
+    padding-right: 786px;
+    
+    
+
+} 
+.greyText {
+    width: 960px;
+    color: #777777;
+    background-color: #ffffff;
+  
+
+} 
+
+
+/* img {
+    float: left;
+    top: 200px;
+    left: 200px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+} */
+
+
+body {
+    background-image: url("../images/dust_scratches.png");
+    margin: 0px;
+}
+
+
+ footer {
+     position: fixed; 
+     bottom: 0px;
+     background-color: #777777;
+     border-top: solid 8px #337ab7;
+     width: 100%;
+     height: 50px;
+     text-align: center;
+     padding-top: 10px;
+     color: #bdbdbd;
+     
+
+ }
+
+ .imgSize {
+    background-color: #ffffff;
+    padding-left: 86px;
+    padding-top: 27px;
+    padding-bottom: 15px;
+
+    
+    
+} 
+
+.contact h1 {
+
+   
+    /* color:#4aaaa5; */
+    border-bottom: 2px solid #bdbdbd;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 0;
+} 
+
+.contact {
+    background-color: #ffffff;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 16px;
+    padding: 0px 16px; 
+}
+
+.about {
+    background-color: #ffffff;
+    border: 1px solid #bdbdbd; 
+}
+
+.about h1 {
+    color:#4aaaa5;
+    border-bottom: 2px solid #bdbdbd;
+    padding-left: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+.portfolio {
+    background-color: #ffffff;
+    border: 1px solid #bdbdbd;
+    padding: 20px;
+}
+.portfolio h1 {
+    color:#337ab7;
+    border-bottom: 2px solid #bdbdbd;
+    padding-left: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 0;
+
+}
+
+.contact-form {
+
+    color: #777777;
+    background-color: #ffffff;
+    
+    padding: 20px;
+}
+
+.about-p {
+    color: #777777;
+    background-color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+.contact-form p {
+    width: 960px;
+    color: #777777;
+    background-color: #ffffff;
+}
+
+.portfolio img {
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 40px;
+}
+
+.textPadding {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 80px;
+}
+
+.social {
+    background-color: #ffffff;
+    text-align: center;
+    /* color:#4aaaa5; */
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border: 1px solid #bdbdbd;
+    padding: 0px 16px; 
+  
+   
+}
+
+.social-header {
+    
+    background-color: #ffffff;
+    border-bottom: 2px solid #bdbdbd;
+    margin-bottom: 13px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+
+
+
+
