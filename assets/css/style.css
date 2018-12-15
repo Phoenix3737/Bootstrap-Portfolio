@@ -17,23 +17,38 @@
     color: #ffffff;
 }
 
+.navbar-brand {
+    padding-top: 0px;
+}
+
 .navbar-default .navbar-brand {
-    font-size: 28px;
+    font-size: 40px;
     color: #ffffff;
 }
 
 .navbar-default  {
     background-color: #337ab7;
     border-color: #E7E7E7;
+    margin-bottom: 70px;
+    border-bottom: solid 16px #0d3861;
 }
+
+.myName {
+    height: 81px;
+}
+
 .profile-img {
     padding-right: 15px;
+    padding-top: 3px;
+    height: 17%;
+    width: 17%;
 }
    
 body {
     background-image: url("../images/dust_scratches.png");
     margin: 0px;
 }
+
 
  footer {
      position: fixed; 
@@ -65,7 +80,7 @@ body {
 .about {
     background-color: #ffffff;
     border: 1px solid #bdbdbd; 
-    padding: 0px 16px;
+    height: 400px;
 }
 
 .about h1 {
@@ -73,6 +88,7 @@ body {
     margin-bottom: 0px;
     padding-bottom: 25px;
     padding-top: 25px;
+    padding-left: 16px;
     margin-top: 0;
 }
 
@@ -100,9 +116,10 @@ body {
 .about-p {
     color: #777777;
     background-color: #ffffff;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0px;
+    padding-right: 15px;
     padding-top: 16px;
+    font-size: 21px;
 }
 
 .portfolio img {
@@ -132,15 +149,33 @@ body {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    /* font-size: 30px; */
+    width: 82px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
 }
-  
-  .fa:hover {
-      opacity: 0.7;
+
+.fa-linkedin:before {
+    font-size: 40px;
+}
+.fa-slack:before {
+    font-size: 40px;
+}
+.fa-github:before {
+    font-size: 40px;
+}
+.fa-linkedin:hover {
+    background-color: lightgray;
+    color: #337ab7;
+}
+.fa-slack:hover {
+    background-color: lightgray;
+    color: #02bb79;
+}
+.fa-github:hover {
+    background-color: lightgray;
+    color: black;
 }
 
   .fa-linkedin {
@@ -148,15 +183,17 @@ body {
     color: white;
 }
   
-  .fa-youtube {
-    background: #bb0000;
+  .fa-slack {
+    background: #02bb79;
     color: white;
 }
 
-  .fa-reddit {
-    background: #ff5700;
+  .fa-github {
+    background: #000000;
     color: white;
 }
+
+
 
 
 
